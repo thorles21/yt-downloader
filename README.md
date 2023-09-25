@@ -3,8 +3,8 @@ python utility to download music from yt (I'm using ubuntu, so this hasn't been 
 
 Installation:
 
-Clone the repo
-- run installer.sh
+Clone this repo
+- run the installer.sh to setup the enviornment
 - enjoy!
 
 Usage:
