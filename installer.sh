@@ -8,6 +8,9 @@ if [[ ! -e '/usr/bin/python3.10' ]]; then
     exit 1
 fi
 
+if [[ ! -e '/usr/bin/ffmpeg' ]] || [[ ! -e '/usr/bin/ffprobe' ]]; then
+    echo -e "${YELLOW}[WARNING]${RESET}'ffmpeg' or 'ffprobe' not found, you will probably have problems running the downloader later on, if you find any errors pls install them, use 'sudo apt-get install ffmpeg' or\and 'sudo apt-get install ffprobe' (ubuntu) to resolv the issue."
+
 read -p "This script will setup the downloader in the current directory, are you sure? (y/n) " answer
 
 case ${answer} in
