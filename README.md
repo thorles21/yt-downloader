@@ -1,5 +1,5 @@
 # yt-downloader
-python utility to download music from yt (I'm using ubuntu, so this hasn't been tested in any other enviornment)
+A simple python utility to download music from yt using youtube_dl lib (I'm using ubuntu, so this hasn't been tested in any other enviornment)
 
 Installation:
 
