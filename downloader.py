@@ -16,7 +16,7 @@ ydl_opts = {
         'preferredcodec': 'mp3',
         'preferredquality': '192',
     }],
-    'outtmpl': '/home/smartboe/music-downloader/musics/%(title)s.%(ext)s',
+    'outtmpl': './musics/%(title)s.%(ext)s',
 }
 
 def download_vid(video_url):
